@@ -1,5 +1,5 @@
 from PIL import Image, ImageDraw
-image = Image.open("file.png")
+image = Image.open(r"file.png")
 
 multiplier = int(input())
 
